@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/21b9934e7f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>TechAcademy</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="imagem">
+                    <img src="img/logo.png" alt="imagem do logo" />
+                </div>
+                <h1>TechAcademy</h1>
+            </div>
+            <nav>
+                <i class="fa-solid fa-bars" id="menu-btn"></i>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                 
+                 <div class="botao-whats">
+                    <a href="#"><i class="fa-brands fa-whatsapp" style="color: #63E6BE;"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="overlay">
+                <div class="container hero-content">
+                    <div class="hero-text">
+                        <h1>Bem-vindo à TechAcademy</h1>
+                        <p>
+                            Transforme seu futuro com tecnologia. Aprenda de forma prática e
+                            eficaz com os melhores cursos.
+                        </p>
+                        <a href="#cursos" class="btn">Ver Cursos</a>
+                    </div>
+                </div>                
+            </div>
+            <div class="swiper-wrapper">
+                    <div class="swiper-slide caixa-01"></div>
+                    <div class="swiper-slide caixa-02"></div>
+                    <div class="swiper-slide caixa-03"></div>
+                </div>
+        </section>
+        <section class="cursos">
+            <div class="course">
+                <i class="fas fa-code"></i>
+                <h3>HTML</h3>
+                <p>
+                    Aprenda a estruturar páginas da web com a linguagem base da internet.
+                    Ideal para iniciantes.
+                </p>
+            </div>
+            <div class="course">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>
+                    Domine o design das suas páginas com estilos modernos e responsivos
+                    usando CSS.
+                </p>
+            </div>
+            <div class="course">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>
+                    Dê vida às suas aplicações web com interatividade, animações e lógica
+                    de programação.
+                </p>
+            </div>
+            <div class="course">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+                <p>
+                    Construa sistemas robustos e orientados a objetos, muito usados em
+                    empresas e back-end.
+                </p>
+            </div>
+        </section>
+        <section class="why">
+            <div class="container">
+                <h2>Por que escolher a TechAcademy?</h2>
+                <div class="typing">
+                    <span id="typed"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <form action="">
+                    <input type="text" placeholder="Seu nome" required />
+                    <input type="email" placeholder="Seu e-mail" name="e-mail" id="email" required />
+                    <textarea name="text" id="text-area" placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="content-1">
+                <h4 class="title-footer">Tech<span>Academy</span></h4>
+
+                <ul>
+                    <li>
+                        <a href="#">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#">Politica privacidade</a>
+                    </li>
+                    <li>
+                        <a href="#">Termos de serviço</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content-1">
+                <h4 class="title-footer">OBTENHA <span>AJUDA</span></h4>
+                <ul>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Devoluções</a>
+                    </li>
+                    <li>
+                        <a href="#">Opções de pagamento</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content-1">
+                <h4 class="title-footer">Siga<span>-nos</span></h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TechAcademy. Todos Direitos Reservado</p>
+        </div>
+    </footer>
+    <!-- CÓDIGO PARA INCORPORAR A FUNÇÃO LIBRAS NA PAGINA -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
